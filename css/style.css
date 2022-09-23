@@ -7,7 +7,27 @@
 body{
     font-family: 'roboto', sans-serif;
 }
+p,h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+ul{
+    margin: 0;
+    padding-left: 0;
+}
 /*---------------------------HEADER------------------*/
+.header{
+    background-color: antiquewhite;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1200px;
+    padding-left: 15;
+    padding-right: 15;
+    margin: 0 auto;
+    outline: 2px solid red;
+}
 /* header-logo */
 .list{
     list-style: none;
@@ -18,6 +38,7 @@ body{
 .logo-header{
     font-family: 'Raleway', sans-serif;
     font-style: normal;
+    margin-right: 93px;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -28,6 +49,16 @@ body{
     color: var(--accent-color);
 }
 /* header-navigation */
+.header-list{
+    display: flex;
+    margin-right: 344px;
+}
+.header-item{
+    margin-right: 50px;
+}
+.header-item:last-child {
+    margin-right: 0px;
+}
 .header-link{
     font-weight: 500;
     font-size: 14px;
@@ -42,6 +73,9 @@ body{
     color: var(--accent-color)
 }
 /* contacts */
+.header-contact{
+    display: flex;
+}
 .header-link-mail{
     font-family: 'Roboto';
     font-style: normal;
