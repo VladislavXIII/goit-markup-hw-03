@@ -15,9 +15,7 @@ ul{
     padding-left: 0;
 }
 /*---------------------------HEADER------------------*/
-/* .header{
-    background-color: antiquewhite;
-} */
+
 .container{
     width: 1200px;
     padding-left: 15px;
@@ -155,14 +153,15 @@ ul{
 }
 
 /*----------------------------------------SKILL--------------------------------*/
-.skill-container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+
 .top-skill{
     padding-top: 94px;
     padding-bottom: 94px;
+}
+.skill-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .skill{
     display: flex;
@@ -194,7 +193,11 @@ ul{
 }
 /*----------------------------------------ABOUT--------------------------------*/
 .about-container{
-    display: flex;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    /* display: flex; */
     align-items: center;
     justify-content: space-between;
 }
@@ -217,9 +220,13 @@ ul{
     margin-right: 30px;
     padding-bottom: 0;
 }
+.about-link:last-child{
+    margin-right: 0;
+}
 /*----------------------------------------TEAM--------------------------------*/
 .team{
     padding-top: 94px;
+    padding-bottom: 94px;
 }
 .team-container{
     display: flex;
@@ -228,7 +235,6 @@ ul{
 }
 .team-list{
     display: flex;
-    padding-bottom: 94px;
 }
 .team-link{
     margin-right: 30px;
@@ -265,11 +271,14 @@ ul{
     color: var(--second-text-color);
 }
 /*----------------------------------------PORTFOLIO--------------------------------*/
+.portfolio-section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .list-container{
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-top: 94px;
     margin-bottom: 50px;
     /* margin-right: 8px; */
 }
@@ -318,9 +327,9 @@ ul{
 .portfolio-list{
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 94px;
 }
 .portfolio-link{
+    display: block;
     width: 370px;
     margin-right: 30px;
     margin-bottom: 30px;
@@ -328,11 +337,16 @@ ul{
 .portfolio-link:nth-child(3n+3){
     margin-right: 0px;
 }
+.portfolio-img{
+    display: block;
+    margin-bottom: 0;
+}
 .portolio-card{
     padding-top: 20px;
     padding-right: 24px;
     padding-bottom: 20px;
     padding-left: 24px;
+    border: 1px solid #EEEEEE;
 }
 .portfolio-top-caption{
     font-weight: 700;
@@ -382,11 +396,14 @@ padding-bottom: 60px;
 }
 .address-inform{
     color: #FFFFFF;
+    margin-bottom: 9px;
 }
 .address-mail-link{
+    display: inline-flex;
     font-family: 'Roboto', sans-serif;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
+    margin-bottom: 9px;
 }
 .address-tel-link{
     font-family: 'Roboto', sans-serif;
