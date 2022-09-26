@@ -15,9 +15,9 @@ ul{
     padding-left: 0;
 }
 /*---------------------------HEADER------------------*/
-.header{
+/* .header{
     background-color: antiquewhite;
-}
+} */
 .container{
     width: 1200px;
     padding-left: 15px;
@@ -41,8 +41,8 @@ ul{
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     margin-right: 93px;
-    margin-top: 24px;
-    margin-bottom: 25px;
+    padding-top: 24px;
+    padding-bottom: 25px;
     font-weight: 700; 
     font-size: 26px;
     line-height: 1.19;
@@ -104,6 +104,10 @@ ul{
 .header-link-mail:focus,
 .header-link-tel:focus {
     color: var(--accent-color)
+}
+/* header to portfolio page */
+.header-line{
+    border-bottom: 1px solid #ECECEC;
 }
 
 /*----------------------------------------HERO-----------------------------------*/
@@ -174,6 +178,7 @@ ul{
 }
 
 .skill-top-text{
+    margin-bottom: 10px;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -197,9 +202,10 @@ ul{
     padding-bottom: 94px;
 }
 .about-caption{
+    margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.7;
+    line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;    
     color: var(--top-text-color);
@@ -212,6 +218,9 @@ ul{
     padding-bottom: 0;
 }
 /*----------------------------------------TEAM--------------------------------*/
+.team{
+    padding-top: 94px;
+}
 .team-container{
     display: flex;
     align-items: center;
@@ -225,13 +234,19 @@ ul{
     margin-right: 30px;
 }
 .team-caption{
+    /* padding-top: 94px; */
+    margin-bottom: 50px;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.7;
+    line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--top-text-color);
+}
+.key-info{
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .team-name{
     font-weight: 500;
@@ -254,12 +269,20 @@ ul{
     display: flex;
     justify-content: center;
     text-align: center;
+    margin-top: 94px;
+    margin-bottom: 50px;
+    /* margin-right: 8px; */
+}
+.portfoilio-link{
+    margin-right: 8px;
+}
+.portfoilio-link:last-child{
+    margin-right: 0;
 }
 .portfolio-btn{
     display: inline-flex;
-    margin-right: 8px;
-    margin-top: 94px;
-    margin-bottom: 50px;
+    /* margin-right: 8px; */
+    /* margin-top: 94px; */
     background: #F5F4FA;
     border-radius: 4px;
     border-color: #F5F4FA;
@@ -305,6 +328,12 @@ ul{
 .portfolio-link:nth-child(3n+3){
     margin-right: 0px;
 }
+.portolio-card{
+    padding-top: 20px;
+    padding-right: 24px;
+    padding-bottom: 20px;
+    padding-left: 24px;
+}
 .portfolio-top-caption{
     font-weight: 700;
     font-size: 18px;
@@ -321,6 +350,8 @@ ul{
 /*----------------------------------------FOOTER--------------------------------*/
 .footer-style{
 background-color: #212121;
+padding-top: 60px;
+padding-bottom: 60px;
 }
 .logo-footer{
     display: inline-flex;
@@ -331,20 +362,20 @@ background-color: #212121;
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: #FFFFFF;
-    margin-top: 60px;
+    /* margin-top: 60px; */
     margin-bottom: 20px;
 }
-.footer-address{
+/* .footer-address{
     display: flex;
-    margin-bottom: 60px;
-}
+} */
 .address{
+    /* display: flex; */
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;    
     letter-spacing: 0.03em;
-    margin-bottom: 60px;
+    /* margin-bottom: 60px; */
 }
 .address-list{
     /* padding-bottom: 60px; */

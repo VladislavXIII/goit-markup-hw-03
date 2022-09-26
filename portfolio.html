@@ -4,7 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+    <title>WebStudio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,7 +21,7 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header class="header">
+    <header class="header header-line">
       <div class="container header-container">
         <a class="logo-header link" href="./index.html">
           <span class="logo-web">Web</span>Studio</a
@@ -49,41 +56,43 @@
     <main>
       <section>
         <!-- h1 Portfolio -->
+        <!-- Portfolio btn -->
         <div class="container">
           <ul class="list list-container">
-            <li>
+            <li class="portfoilio-link">
               <button class="portfolio-btn" type="button">
                 <span class="portfolio-btn-text">Все</span>
               </button>
             </li>
-            <li>
+            <li class="portfoilio-link">
               <button class="portfolio-btn" type="button">
                 <span class="portfolio-btn-text">Веб-сайти</span>
               </button>
             </li>
-            <li>
+            <li class="portfoilio-link">
               <button class="portfolio-btn" type="button">
                 <span class="portfolio-btn-text">Додатки</span>
               </button>
             </li>
-            <li>
+            <li class="portfoilio-link">
               <button class="portfolio-btn" type="button">
                 <span class="portfolio-btn-text">Дизайн</span>
               </button>
             </li>
-            <li>
+            <li class="portfoilio-link">
               <button class="portfolio-btn" type="button">
                 <span class="portfolio-btn-text">Маркетинг</span>
               </button>
             </li>
           </ul>
         </div>
+        <!-- Portfolio case -->
         <div class="container">
           <ul class="portfolio-list list">
-              <li class="portfolio-link">
+              <li class="portfolio-link">  
                 <img src="./images/tehnokryak.jpg" alt="Планшет" width="370" />
-                <h2 class="portfolio-top-caption">Технокряк</h2>
-                <p class="portfolio-description">Веб-сайт</p>
+                <div class="portolio-card" ><h2 class="portfolio-top-caption">Технокряк</h2>
+                <p class="portfolio-description">Веб-сайт</p></div>
               </li>
               <li class="portfolio-link">
                 <img
@@ -91,10 +100,10 @@
                   alt="Два баскетболіста"
                   width="370"
                 />
-                <h2 class="portfolio-top-caption">
+                <div class="portolio-card" ><h2 class="portfolio-top-caption">
                   Постер New Orlean vs Golden Star
                 </h2>
-                <p class="portfolio-description">Дизайн</p>
+                <p class="portfolio-description">Дизайн</p></div>
               </li>
               <li class="portfolio-link">
                 <img
@@ -102,18 +111,18 @@
                   alt="Логотип ресторану"
                   width="370"
                 />
-                <h2 class="portfolio-top-caption">Ресторан Seafood</h2>
-                <p class="portfolio-description">Додаток</p>
+                <div class="portolio-card" ><h2 class="portfolio-top-caption">Ресторан Seafood</h2>
+                <p class="portfolio-description">Додаток</p></div>
               </li>
               <li class="portfolio-link">
                 <img src="./images/prime.jpg" alt="Навушники" width="370" />
-                <h2 class="portfolio-top-caption">Проєкт Prime</h2>
-                <p class="portfolio-description">Маркетинг</p>
+                <div class="portolio-card" ><h2 class="portfolio-top-caption">Проєкт Prime</h2>
+                <p class="portfolio-description">Маркетинг</p></div>
               </li>
               <li class="portfolio-link">
                 <img src="./images/boxes.jpg" alt="Дві коробки" width="370" />
-                <h2 class="portfolio-top-caption">Проєкт Boxes</h2>
-                <p class="portfolio-description">Додаток</p>
+                <div class="portolio-card" ><h2 class="portfolio-top-caption">Проєкт Boxes</h2>
+                <p class="portfolio-description">Додаток</p></div>
               </li>
               <li class="portfolio-link">
                 <img
@@ -121,8 +130,8 @@
                   alt="Карта на моніторі"
                   width="370"
                 />
-                <h2 class="portfolio-top-caption">Inspiration has no Borders</h2>
-                <p class="portfolio-description">Веб-сайт</p>
+                <div class="portolio-card" ><h2 class="portfolio-top-caption">Inspiration has no Borders</h2>
+                <p class="portfolio-description">Веб-сайт</p></div>
               </li>
               <li class="portfolio-link">
                 <img
@@ -130,13 +139,15 @@
                   alt="Відкритий журнал"
                   width="370"
                 />
-                <h2 class="portfolio-top-caption">Видання Limited Edition</h2>
-                <p class="portfolio-description">Дизайн</p>
+                <div class="portolio-card" ><h2 class="portfolio-top-caption">Видання Limited Edition</h2>
+                <p class="portfolio-description">Дизайн</p></div>
+               
               </li>
               <li class="portfolio-link">
                 <img src="./images/lab.jpg" alt="Етикетка" width="370" />
-                <h2 class="portfolio-top-caption">Проєкт LAB</h2>
-                <p class="portfolio-description">Маркетинг</p>
+                <div class="portolio-card" ><h2 class="portfolio-top-caption">Проєкт LAB</h2>
+                <p class="portfolio-description">Маркетинг</p></div>
+                
               </li>
               <li class="portfolio-link">
                 <img
@@ -144,8 +155,9 @@
                   alt="Відкритий додаток"
                   width="370"
                 />
-                <h2 class="portfolio-top-caption">Growing Business</h2>
-                <p class="portfolio-description">Додаток</p>
+                <div class="portolio-card" ><h2 class="portfolio-top-caption">Growing Business</h2>
+                <p class="portfolio-description">Додаток</p></div>
+                
               </li>
             </ul>
           </section>
